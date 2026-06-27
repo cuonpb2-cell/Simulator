@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Text Adventure Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .scrollbar-thin {
+            scrollbar-width: thin;
+        }
+        .scrollbar-thumb-purple-600::-webkit-scrollbar-thumb {
+            background-color: #7c3aed;
+        }
+        .scrollbar-track-gray-700::-webkit-scrollbar-track {
+            background-color: #374151;
+        }
+        .scrollbar-thumb-teal-500::-webkit-scrollbar-thumb {
+            background-color: #14b8a6;
+        }
+        .scrollbar-thumb-blue-500::-webkit-scrollbar-thumb {
+            background-color: #3b82f6;
+        }
+        .scrollbar-thumb-sky-500::-webkit-scrollbar-thumb {
+            background-color: #0ea5e9;
+        }
+        .scrollbar-thumb-lime-500::-webkit-scrollbar-thumb {
+            background-color: #84cc16;
+        }
+        .scrollbar-thumb-pink-500::-webkit-scrollbar-thumb {
+            background-color: #ec4899;
+        }
+        .scrollbar-thumb-green-500::-webkit-scrollbar-thumb {
+            background-color: #22c55e;
+        }
+         .prose-invert a {
+            color: #67e8f9;
+        }
+        .prose-invert strong {
+            color: #a78bfa;
+        }
+        .prose-invert code {
+            color: #f9a8d4;
+        }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "vite": "https://aistudiocdn.com/vite@^7.2.2",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
